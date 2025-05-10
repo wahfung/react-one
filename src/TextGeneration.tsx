@@ -16,7 +16,7 @@ interface GenerateTextVars {
 }
 
 // GraphQL查询
-export const GENERATE_TEXT = gql`
+const GENERATE_TEXT = gql`
   query GenerateText($prompt: String!) {
     generateText(prompt: $prompt) {
       id
