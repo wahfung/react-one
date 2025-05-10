@@ -80,6 +80,7 @@ const styles = {
     backgroundColor: "white",
     borderRadius: "4px",
     border: "1px solid #eee",
+    textAlign: "left" as const,
   },
   resultTitle: {
     fontSize: "1.2rem",
@@ -95,7 +96,7 @@ const styles = {
 
 const TextGeneration: React.FC = () => {
   const [prompt, setPrompt] = useState<string>("");
-  const [generateText, { loading, error, data, called }] = useLazyQuery<
+  const [generateText, { loading, error, data }] = useLazyQuery<
     GenerateTextData,
     GenerateTextVars
   >(GENERATE_TEXT, {
