@@ -1,7 +1,7 @@
 import React from "react";
 import logo from "./logo.svg";
 import "./App.css";
-import { DisplayLocations } from "./displayLocations";
+// import { DisplayLocations } from "./displayLocations";
 import TextGeneration from "./TextGeneration";
 
 const styles = {
