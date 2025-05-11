@@ -11,7 +11,6 @@ const styles = {
   },
   section: {
     marginBottom: "40px",
-    width: "1200px",
   },
   sectionTitle: {
     fontSize: "1.5rem",
