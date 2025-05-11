@@ -6,12 +6,12 @@ import TextGeneration from "./TextGeneration";
 
 const styles = {
   main: {
-    maxWidth: "1200px",
     margin: "0 auto",
     padding: "20px",
   },
   section: {
     marginBottom: "40px",
+    width: "1200px",
   },
   sectionTitle: {
     fontSize: "1.5rem",
@@ -31,10 +31,10 @@ function App(): React.ReactElement {
           <section style={styles.section}>
             <TextGeneration />
           </section>
-          <section style={styles.section}>
+          {/* <section style={styles.section}>
             <h2 style={styles.sectionTitle}>位置列表</h2>
             <DisplayLocations />
-          </section>
+          </section> */}
         </main>
       </header>
     </div>
