@@ -1,7 +1,7 @@
 import React from "react";
 import "./App.css";
 // import { DisplayLocations } from "./displayLocations";
-import TextGeneration from "./TextGeneration";
+import TextGeneration from "@/components/TextGeneration";
 
 const styles = {
   main: {
