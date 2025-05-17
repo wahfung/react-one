@@ -23,7 +23,6 @@ function App(): React.ReactElement {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>佳哥NB</h1>
         <main style={styles.main}>
           <section style={styles.section}>
             <TextGeneration />
